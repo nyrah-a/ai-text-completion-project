@@ -1,11 +1,16 @@
-# ai-text-completion-project
+# AI Text Completion Project
 
-AI Text Completion Project Report
+This is a simple Python application that uses Hugging Face's `transformers` library and the GPT-2 model to generate text based on user prompts.
 
-Name: Nyrah Arif
+## 🔧 Features
+- Input a prompt and receive generated text
+- Customize generation parameters (`temperature`, `max_new_tokens`)
+- Input validation to prevent empty/long prompts
+- Logs prompts and outputs for evaluation
 
-Date: 06/12/2025
+## 📦 Dependencies
 
-Model Used: Hugging Face – openai-community/gpt2 via transformers library
+Install with pip:
+```bash
+pip install transformers torch
 
-Environment: Google Colab / Jupyter Notebook / Local (specify which one)
