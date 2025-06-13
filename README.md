@@ -12,5 +12,5 @@ This is a simple Python application that uses Hugging Face's `transformers` libr
 
 Install with pip:
 ```bash
-pip install transformers torch
+!pip install -U transformers
 
